@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#home">WasilSaeed</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Burger Menu Icon -->
+        <div class="burger-menu" id="burger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Wasil</span></h1>
+          <h2>Aspiring Web Developer</h2>
+          <p>
+            I build clean, responsive websites and love learning new
+            technologies to improve my skills every day.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./images/hero_image.jpg" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I’m <strong>Wasil Saeed</strong>, a <strong>BSCS</strong> student with a
+        strong passion for technology and problem-solving. My focus is on
+        building modern, responsive, and user-friendly websites while
+        continuously improving my coding and design skills. I work with
+        technologies like <strong>HTML, CSS, JavaScript</strong>, and I’m
+        learning backend development to become a full-stack developer. Along
+        with web development, I am also interested in exploring AI and Machine
+        Learning to stay ahead of the curve. My goal is to grow into a
+        <strong>professional Web Developer & AI Engineer</strong>, create
+        impactful digital solutions, and help businesses and individuals bring
+        their ideas to life.
+      </p>
+      <a href="assets/WasilDevResume.docx" download class="download-btn">
+  <i class="fa-solid fa-download"></i> Download Resume
+</a>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <p class="projects-subtitle">
+        A selection of my recent work showcasing my skills and creativity
+      </p>
+      <div class="project-container">
+        <!-- Already Vissible Projects -->
+        <div class="project-card">
+          <img
+            src="./images/project1.png"
+            alt="Project 1"
+          />
+          <h3>MineBlog – Django-Powered Blogging Platform</h3>
+          <p>
+           MineBlog is a modern, full-stack blogging website built with HTML, CSS, JavaScript, Django, and SQLAlchemy. It features a sleek and responsive UI/UX, a powerful admin dashboard, and complete CRUD functionality for blog posts — allowing users to add, update, and delete posts dynamically. This project highlights my expertise in Django development, database integration, and building scalable full-stack web applications with a strong focus on performance, usability, and clean design.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/project2.png"
+            alt="Project 2"
+          />
+          <h3>Job Automator – Full-Stack Job Automation Platform</h3>
+          <p>
+            Job Automator is a full-stack web application built with Flask, HTML, CSS, JavaScript, Flask and SQLAlchemy that automates the job posting and management process. It features a modern, responsive UI/UX, user authentication, and a powerful dashboard for creating, updating, and tracking job postings dynamically. This project demonstrates my skills in Flask development, database integration, and building real-world automation solutions with a focus on efficiency, performance, and scalability.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/project3.png"
+            alt="Project 3"
+          />
+          <h3>Invoice Extractor – AI-Powered Invoice OCR Platform</h3>
+          <p>Invoice Extractor is a full-stack web application built with HTML, CSS, JavaScript, and Python (Flask) that automates invoice data extraction. Users can upload invoices in PDF, JPG, or PNG formats and convert them into CSV or Excel files. The platform features a modern, responsive UI/UX, dynamic data handling, and leverages AI-powered OCR to extract key fields such as invoice number, dates, billing details, line items, and totals. This project demonstrates my expertise in full-stack development, Flask integration, and building intelligent automation tools that improve efficiency and reduce manual work.</p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/project4.png"
+            alt="Project 4"
+          />
+          <h3>Portfolio Website – Interactive & Fully Responsive Full-Stack Showcase</h3>
+          <p>
+            This is a modern, fully responsive portfolio website built with Python (Flask), HTML, CSS, JavaScript, and Bootstrap. It features smooth animations, interactive UI/UX, and a dynamic projects section with advanced filtering based on Basic, Intermediate, and Advanced project levels. The website showcases my ability to combine front-end design, responsive layouts, and back-end functionality to create an engaging and professional digital portfolio. This project demonstrates my expertise in full-stack web development, interactive design, and modern web technologies.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/project5.png"
+            alt="Project 5"
+          />
+          <h3>GetAutomate – Job Application & Candidate Automation Platform</h3>
+          <p>
+            GetAutomate is a full-stack web application built with Python (Flask), HTML, CSS, JavaScript, and Bootstrap that streamlines and automates the job application process. It allows users to input detailed candidate information, including personal details, job preferences, visa/blacklist keywords, references, and supporting templates. Designed with a modern and responsive UI/UX, the platform enables automated data processing and efficient candidate management, demonstrating my expertise in full-stack development, form handling, and building intelligent automation solutions for recruitment workflows.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/project6.png"
+            alt="Project 6"
+          />
+          <h3>Brizme Products – Full-Stack Beauty E-Commerce Website</h3>
+          <p>Brizme Products is a modern, full-stack e-commerce website built with HTML, CSS, JavaScript, Bootstrap, and Python (Flask), specializing in beauty products. The platform features a sleek and responsive UI/UX, dynamic product listings, shopping cart functionality, and smooth navigation for an engaging user experience. This project demonstrates my expertise in front-end design, back-end development, and full-stack integration, showcasing the ability to build interactive, responsive, and real-world e-commerce applications from scratch.</p>
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/project7.png"
+            alt="Project 7"
+          />
+          <h3>SEASHARK – Modern Sportswear E-Commerce Website</h3>
+          <p>SEASHARK is a sleek, fully responsive e-commerce website dedicated to      sportswear and active lifestyle products.
+            Built with HTML, CSS, JavaScript, and Python, it features a clean, modern UI/UX, smooth animations, and a mobile-first design approach.
+            The site delivers an engaging shopping experience with product showcases, interactive elements, and a seamless user flow optimized for all screen sizes.</p>
+        </div>
+      </div>
+      </button>
+
+    </section>
+
+    <!-- Modal-->
+    <div class="project-modal" id="project-modal" aria-hidden="true">
+      <div
+        class="modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button
+          class="modal-close-btn"
+          id="modal-close-btn"
+          aria-label="Close Modal"
+        >
+          &times;
+        </button>
+        <img id="modal-image" src="" alt="Project image" />
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+      <p class="skills-subtitle">
+        Technologies & tools I use to build amazing websites
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="./images/html.png" alt="" />
+          <h3>HTML5</h3>
+          <div class="skill-bar"><span data-width="95%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <img src="./images/css-3.png" alt="" />
+          <h3>CSS3</h3>
+          <div class="skill-bar"><span data-width="90%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <img src="./images/js.png" alt="" />
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><span data-width="80%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <img src="./images/python (1).png" alt="" />
+          <h3>Python</h3>
+          <div class="skill-bar"><span data-width="90%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <img src="./images/bootstrap.png" alt="" />
+          <h3>Bootstrap</h3>
+          <div class="skill-bar"><span data-width="85%"></span></div>
+        </div>
+
+        <div class="skill-card">
+          <img src="./images/science.png" alt="" />
+          <h3>React</h3>
+          <div class="skill-bar"><span data-width="75%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p class="contact-subtitle">
+        If you'd like to work with me or just say hi, feel free to reach out!
+      </p>
+
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i>wasilsaeed360@gmail.com</p>
+          <p><i class="fas fa-phone"></i>+92 318 8773200</p>
+          <p>
+            <i class="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/wasilcodes" target="_blank"
+              >facebook.com/wasilcodes</a
+            >
+          </p>
+          <p>
+            <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/wasilcodes" target="_blank">instagram.com/wasilcodes</a>
+          </p>
+          <p>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/WasilCodes">linkedin.com/in/WasilCodes</a>
+          </p>
+          <p><i class="fab fa-github"></i> <a href="https://github.com/wasilcodes" target="_blank">github.com/wasilcodes</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to Top Button with Progress -->
+    <button id="back-to-top" aria-label="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+      <svg class="progress-ring" width="52" height="52">
+        <circle class="progress-ring__circle" stroke-width="4" fill="transparent" r="24" cx="26" cy="26"/>
+      </svg>
+    </button>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Wasil. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script Code  -->
+    <script src="script.js"></script>
+  </body>
+</html>
